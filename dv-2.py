@@ -15,7 +15,7 @@ df = pd.DataFrame({
     "Percentage": [75, 82, 68, 90, 85]
 })
 
-print("Average Age:", df["Age"].mean())
-print("Average Percentage:", df["Percentage"].mean())
+print("Average Age of mean:", df["Age"].mean())
+print("Average Percentage of mean:", df["Percentage"].mean())
 print("\nBasic Statistics:")
 print(df.describe())
