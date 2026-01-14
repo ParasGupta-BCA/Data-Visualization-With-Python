@@ -14,3 +14,12 @@ print(df.sample(10))
 #Step-4: Display maximum value of all numeric attribute:
 print("\nMaximum value of numeric attributes:\n")
 print(df.max(numeric_only=True))
+
+#Step-5: Display total number of records
+print("\nTotal number of records in dataset:")
+print (len(df))
+
+#Step-6: Count number of records for each distinct class (species)
+print("\nNumber of records for each species:")
+class_count=df['species'].value_counts()
+print(class_count)
