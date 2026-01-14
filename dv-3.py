@@ -23,3 +23,7 @@ print (len(df))
 print("\nNumber of records for each species:")
 class_count=df['species'].value_counts()
 print(class_count)
+
+#Step-7: Display column_wise mean(numeric columns only)
+print("\nColumn-wise Mean:")
+mean_values=df.mean(numeric_only=True)
