@@ -11,3 +11,6 @@ ax.set_xlabel("X-Axis")
 ax.set_ylabel("Y-Axis")
 
 plt.show()
+df.loc[row_label,column_label]
+
+df.loc[2]

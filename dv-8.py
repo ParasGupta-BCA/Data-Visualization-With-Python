@@ -10,3 +10,6 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
+df.loc[row_label,column_label]
+
+df.loc[2]
